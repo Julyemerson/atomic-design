@@ -1,23 +1,21 @@
 <template>
   <div class="component">
-    <Logo />
-    <NavBar />
-    <SearchForm />
+    <HomeTemplate />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { Logo } from "@/components/atoms";
-import { NavBar, SearchForm } from "./components/molecules";
+
+import HomeTemplate from "@/components/Templates/HomeTemplate.vue";
 
 export default defineComponent({
-  components: { Logo, NavBar, SearchForm }
+  components: { HomeTemplate }
 });
 </script>
 
 <style lang="scss" scoped>
 .component {
-  margin: 0;
+  margin: 3rem;
 }
 </style>

@@ -1,3 +1,12 @@
 {
-    "vetur.experimental.templateInterpolationService": true
+  "vetur.experimental.templateInterpolationService": true,
+  "material-icon-theme.folders.associations": {
+    "bosons": "components",
+    "quarks": "components",
+    "atoms": "components",
+    "molecules": "components",
+    "organisms": "components",
+    "templates": "components",
+    "pages": "components"
+  }
 }
